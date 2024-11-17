@@ -1,0 +1,17 @@
++) a1 + a2 + ... + am = n
++) n > m
+-> (a1 + a2 + ... + am)/m > 1
+-> there exist some i such that ai > 1
+proof.
+Assume for all i, ai <= 1. then a1 + a2 + ... + am <= m (contradict the given constraint).
+
++) a1 + a2 + ... + am = km + 1
+1 > 0
+<-> km + 1 > km
+<-> (km + 1)/m > km/m
+<-> (km + 1)/m > k
+<-> (a1 + a2 + ... + am)/m > k
+-> there exist some i such that ai > k <-> ai >= k + 1 (since we are dealing with integer)
+proof.
+"for all i, P(i) is true" is false <-> "there exist i, P(i) is false" is true
+Assume for all i, ai <= k. then a1 + a2 + ... + am <= km (contradict the given constraint). 
